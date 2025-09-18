@@ -5,11 +5,8 @@ import matplotlib.pyplot as plt
 def cargar_datos(ruta_archivo):
     """Carga los datos desde un archivo CSV."""
     return pd.read_csv(ruta_archivo)
-    datos = None
-    ## FIN - COMPLETAR CODIGO
-    return datos
+   
     
-
 def generar_nube_palabras(df, column_name, ruta_salida):
     """Genera una nube de palabras a partir del texto proporcionado."""
 
