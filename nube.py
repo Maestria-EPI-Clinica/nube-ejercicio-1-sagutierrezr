@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 def cargar_datos(ruta_archivo):
     """Carga los datos desde un archivo CSV."""
-    ## INICIO - COMPLETAR CODIGO
+    return pd.read_csv(ruta_archivo)
     datos = None
     ## FIN - COMPLETAR CODIGO
     return datos
